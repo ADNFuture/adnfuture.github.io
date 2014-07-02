@@ -1,75 +1,245 @@
 <!DOCTYPE html>
-<html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="ADNFuture : @adnfuture" />
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A layout example that shows off a responsive product landing page.">
+	<title>ADNFuture</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	<link rel="stylesheet" href="css/pure.css" type="text/css">
+	<link rel="stylesheet" href="css/marketing.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css">
 
-    <title>ADNFuture</title>
-  </head>
+<!--[if gt IE 8]>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+<![endif]-->
+<!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+	<link rel="stylesheet" href="css/marketing-old-ie.css">
+<![endif]-->
+</head>
 
-  <body>
+<body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/ADNFuture">View on GitHub</a>
+	<!-- HEADER MENU -->
+	<div class="header">
+		<div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+			<a class="pure-menu-heading" href="">ADNFuture</a>
+			<ul>
+				<li class="pure-menu-selected"><a href="#">Home</a></li>
+				<li><a href="http://blog.adnfuture.net">Blog</a></li>
+				<li><a href="#subscribe">Subscribe!</a></li>
+			</ul>
+		</div>
+	</div>
 
-          <h1 id="project_title">ADNFuture</h1>
-          <h2 id="project_tagline">@adnfuture</h2>
+	<!-- SPLASH IMAGE -->
+	<div class="splash-container">
+		<div class="splash">
+			<img id="adnflogo" src="img/adnfuture_400px_trans.png" class="pure-img-responsive" alt="ADNFuture">
 
-        </header>
-    </div>
-    <a href='https://alpha.app.net/adnfuture' rel='me'>App.net</a>
-    <a href='https://alpha.app.net/adnfuture' class='adn-button' target='_blank' data-type='follow' data-width='277' data-height='27' data-user-id='@adnfuture' data-show-username='1' rel='me'>Follow me on App.net</a><script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='//d2zh9g63fcvyrq.cloudfront.net/adn.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'adn-button-js'));</script>
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+			<h1 class="splash-head">ADNFuture</h1>
+			<p class="splash-subhead"><span>For the community, </span><span>By the community, </span><br><span>Of the community.</span></p>
+		</div>
+	</div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+	<!-- MAIN CONTENT -->
+	<div class="content-wrapper">
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+		<!-- FOR THE COMMUNITY -->
+		<div class="content">
+			<h2 class="content-head is-center">For the community</h2>
+			<div class="pure-g">
+				<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+					<h3 class="content-subhead">Dear ADN,</h3>
+					<p>When the founders of App.net published the State of the Union post, it came as a shock to many of us. Though they assured us that App.net will continue to run in its current form <em>indefinitely</em>, there is no hope that it will grow any further. It is unlikely, for example, that we will ever see new features.</p>
+					<p>Though users haven't yet left in droves, App.net is no longer seen as a viable service. People have begun to move on and more will undoubtedly follow. We believe that App.net's greatest feature is its incredible community. This is something worth preserving.</p>
+				</div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+				<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+					<h3 class="content-subhead">These are our goals</h3>
+					<ul>
+						<li>We want to preserve the community that has flourished.</li>
+						<li>We want to grow the community and attract new members.</li>
+						<li>We want to enhance the service with new features.</li>
+						<li>We want to actively listen to, and <strong>communicate</strong> with this community.</li>
+					</ul>
+					<p>And we're going to start right now.</p>
+					<div class="cta-div is-center">
+						<a href="#subscribe" class="pure-button cta-button">Subscribe to our mailing list</a>
+					</div>
+				</div>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+			</div>
+		</div>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+		<!-- BY THE COMMUNITY -->
+		<div class="content ribbon">
+			<h2 class="content-head content-head-ribbon is-center">By the community</h2>
+			<div class="pure-g">
+				<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+					<h3 class="content-subhead content-subhead-ribbon">Let's do this together</h3>
+					<p>The future of this network cannot be decided by developers alone.</p>
+					<p>Every member of this community is welcome to chime in on our <a href="https://trello.com/adnfuture">Trello boards</a>; where members from our community have already submitted ideas for features, names, and marketing, for example.</p>
+					<p>But that is not all. We will form an Advisory Panel which will have five members — users who are explicitly <strong>not</strong> developers. This panel will take an active role in the development of the service.</p>
+					<p>If you'd like to apply for a position on the Advisory Panel, please <a href="#subscribe">sign up for our mailing list</a> below and check the <strong>"Yes, I want to help!"</strong> box. We will contact you soon.</p>
+				</div>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+			</div>
+		</div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+		<!-- OF THE COMMUNITY -->
+		<div class="content">
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+			<h2 class="content-head is-center">Of the community</h2>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+			<div class="pure-g">
+				<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+					<h3 class="content-subhead">Ideals</h3>
+					<p>We still believe in the ideals upon which App.net was founded. Whatever we create will also be a place where you own your data and where you are the customer.</p>
+				</div>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+				<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+					<h3 class="content-subhead">The next logical step</h3>
+					<p>App.net was a great step in the right direction: a company not interested in selling out its users to advertisers. But ultimately, its goals did not match the expectations of its community. Thus the next logical step is a service that is community-run. This is the only way to ensure that the community's needs will be addressed.</p>
+				</div>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+			</div>
+		</div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+		<!-- STAY IN TOUCH -->
+		<a name="subscribe"></a>
+		<div class="content ribbon">
+			<h2 class="content-head content-head-ribbon is-center">Let's stay in touch</h2>
+
+			<div class="pure-g">
+				<div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+					<h3 class="content-subhead">We'd love to keep you updated</h3>
+					<p>Interested in following along as we work to preserve ADN? Great! Sign up below to get updates via email.</p>
+					<p>Willing to help us out by donating your time and expertise? Awesome! Please check the appropriate box(es) and we will be in touch.</p>
+				</div>
+			</div>
+
+			<div class="pure-g">
+				<div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+					<!-- Begin MailChimp Signup Form -->
+					<form class="pure-form pure-form-stacked" action="http://adnfuture.us8.list-manage1.com/subscribe/post?u=df29e92552a294eb09d5c18e4&amp;id=c6c15502f4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<fieldset>
+							<legend>Subscribe to our mailing list</legend>
+							<label for="mce-EMAIL">Email address</label>
+							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email" required>
+						</fieldset>
+
+						<fieldset>
+							<legend>Optional information</legend>
+					    <label for="mce-group[11733]-11733-0" class="pure-checkbox">
+									<input type="checkbox" class="whackbox" value="1" name="group[11733][1]" id="mce-group[11733]-11733-0">
+					        Yes, I want to help! <span>(Be sure to check this box for the Advisory Panel.)</span>
+					    </label>
+					    <label for="mce-group[11733]-11733-1" class="pure-checkbox">
+									<input type="checkbox" class="whackbox" value="2" name="group[11733][2]" id="mce-group[11733]-11733-1">
+					        I'm a developer. <span>(Please check both boxes if you'd like to help with development.)</span>
+					    </label>
+						</fieldset>
+
+						<div id="mce-responses" class="clear">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>
+				    <div style="position: absolute; left: -5000px;"><input type="text" name="b_df29e92552a294eb09d5c18e4_c6c15502f4" tabindex="-1" value=""></div>
+
+				    <div class="mce-submit-button clear is-center"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="pure-button"></div>
+					</form>
+					<!--End mc_embed_signup-->
+					<p class="is-center faded">(This mailing list is very low-volume, and we will never pass on your email address to anyone. It will be used to contact you with news and updates about this project only.)</p>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- MEET OUR TEAM -->
+		<div class="content">
+			<h2 class="content-head is-center">Meet our team</h2>
+			<div class="pure-g">
+				<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+					<ul class="team">
+						<li>
+							<a href="http://app.net/ryantharp">
+								<img class="avatar" src="http://d2rfichhc2fb9n.cloudfront.net/image/5/s1hICRNtoztnSdLsRfCCZde28Cd7InMiOiJzMyIsImIiOiJhZG4tdXNlci1hc3NldHMiLCJrIjoiYXNzZXRzL3VzZXIvMDgvZWQvNzAvMDhlZDcwMDAwMDAwMDAwMC5wbmciLCJvIjoiIn0"><br>
+								@ryantharp
+							</a>
+						</li>
+						<li>
+							<a href="http://app.net/neilco">
+								<img class="avatar" src="http://d2rfichhc2fb9n.cloudfront.net/image/5/v33lIdGDtpBC7cFfUWh6dVODh_N7InMiOiJzMyIsImIiOiJhZG4tdXNlci1hc3NldHMiLCJrIjoiYXNzZXRzL3VzZXIvNjMvZmIvODAvNjNmYjgwMDAwMDAwMDAwMC5wbmciLCJvIjoiIn0"><br>
+								@neilco
+							</a>
+						</li>
+						<li>
+							<a href="http://app.net/matigo">
+								<img class="avatar" src="http://d2rfichhc2fb9n.cloudfront.net/image/5/62HEd-rbntH4TOL3EezrL0uDVEl7InMiOiJzMyIsImIiOiJhZG4tdXNlci1hc3NldHMiLCJrIjoiYXNzZXRzL3VzZXIvYjIvMzYvNzAvYjIzNjcwMDAwMDAwMDAwMC5qcGciLCJvIjoiIn0"><br>
+								@matigo
+							</a>
+						</li>
+						<li>
+							<a href="http://app.net/berklee">
+								<img class="avatar" src="https://d1f0fplrc06slp.cloudfront.net/assets/user/ae/bf/80/aebf800000000000.gif"><br>
+								@berklee
+							</a>
+						</li>
+					</ul>
+					
+					<p><strong>@ryantharp</strong> joined App.net in August of 2012. He is currently working on the <a href="https://github.com/neuroscr/AppDotNetAPI/">AppDotNet Alternative API</a> and has built a lot of <a href="http://adn.customwebapps.com">apps for App.net</a>.</p>
+
+					<p><strong>@neilco</strong> joined App.net in August 2012. He works as an iOS developer and has a long history of building web services.</p>
+
+					<p><strong>@matigo</strong> joined App.net in March of 2013. He is the creator of <a href="http://10centuries.com">10Centuries</a> and host of the <a href="http://discoveradn.10centuries.com">Discover ADN</a> podcast.</p>
+
+					<p><strong>@berklee</strong> joined App.net in August of 2012. He likes to coin hashtags and runs <a href="http://thememonday.com">#ThemeMonday</a>, a monthly event.</p>
+				</div>
+
+				<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+					<h3 class="content-subhead">We know this will be a lot of work</h3>
+					<p>We know that we will have to donate a substantial amount of our time.</p>
+					<p>We know that we might fail.</p>
+					<p>But we love ADN enough to try, and we hope <a href="#subscribe">you do</a> too.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- SOCIAL MEDIA -->
+		<div class="content ribbon">
+			<div class="pure-g">
+				<div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+					<ul class="team">
+						<li><a href="https://app.net/adnfuture"><i class="fa fa-adn"></i></a></li>
+						<li><a href="https://twitter.com/adnfuture"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="http://blog.adnfuture.net"><i class="fa fa-tumblr"></i></a></li>
+						<li><a href="https://github.com/ADNFuture"><i class="fa fa-github"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- FOOTER -->
+		<div class="footer l-box is-center">
+			Sheepish copyright notice: &copy; 2014, The ADNFuture Team &mdash; <a href="https://www.youtube.com/watch?v=bBQVrCflZ_E">let's do this together</a>.
+		</div>
 
 
+	</div>
+	<script>
+		var logo = document.getElementById('adnflogo');
+		if ( logo.addEventListener ) logo.addEventListener( "dblclick", partymode, false );
+		else if ( logo.attachEvent ) logo.attachEvent( "ondblclick", partymode );
+		function partymode() {
+			var body = document.getElementsByTagName('body')[0];
+			console.log( body );
+			body.className = ( body.className == '' ) ? "partymode" : "";
+		}
+	</script>
 
-  </body>
+</body>
 </html>

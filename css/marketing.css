@@ -1,0 +1,125 @@
+/****************
+	GLOBAL STYLES
+****************/
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body {  font-size: 14px; line-height: 1.7em; color: rgb( 14, 58, 94 ); }
+h1, h2, h3, h4, h5, h6, label { color: rgb( 28, 117, 188 ); }
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: Avenir, Futura, sans-serif; }
+.pure-img-responsive { max-width: 100%; height: auto; }
+.partymode .splash-container { background-image: url(http://www.twoyoutubevideosandamotherfuckingcrossfader.com/party_animals_e0.gif); }
+
+/**************
+	MENU STYLES
+**************/
+.home-menu { padding: 0.5em; text-align: center; box-shadow: 0 2px 2px rgba( 0, 0, 0, 0.25 ); }
+.footer,
+.home-menu.pure-menu-open { background-color: rgb( 14, 58, 94 ); }
+.pure-menu.pure-menu-open.pure-menu-fixed { border-bottom: none; z-index: 4; }
+.home-menu .pure-menu-heading { font-size: 120%; font-weight: 500; color: rgb( 255, 255, 255 ); }
+.home-menu .pure-menu-selected a { color: rgb( 255, 255, 255 ); }
+.home-menu li a { padding: 5px 5px; color: rgb( 119, 172, 215 ); }
+.home-menu li a:hover,
+.home-menu li a:focus { color: rgb( 210, 227, 242 ); border: none; background: none; }
+
+.home-menu { text-align: left; }
+.home-menu ul { float: right; }
+
+
+/****************
+	SPLASH STYLES
+****************/
+.splash-container { position: fixed !important; top: 0; left: 0; width: 100%; height: 31.1em; overflow: hidden; background-color: rgb( 28, 117, 188 ); z-index: 1; }
+.splash-container { background-image: -o-linear-gradient( 0deg, rgb( 28, 117, 188 ) 55%, rgb( 14, 58, 94 ) 100% ); background-image: -moz-linear-gradient( 0deg, rgb( 28, 117, 188 ) 55%, rgb( 14, 58, 94 ) 100% ); background-image: -webkit-linear-gradient( 0deg, rgb( 28, 117, 188 ) 55%, rgb( 14, 58, 94 ) 100% ); background-image: -ms-linear-gradient( 0deg, rgb( 28, 117, 188 ) 55%, rgb( 14, 58, 94 ) 100% ); background-image: linear-gradient( 0deg, rgb( 28, 117, 188 ) 55%, rgb( 14, 58, 94 ) 100% ); }
+.splash { margin: 4em auto 0; width: 90%; text-align: center; text-transform: uppercase; }
+.splash-head { margin: 0; font-size: 20px; letter-spacing: 0.1em; font-weight: 100; line-height: 1em; color: white; }
+.splash-subhead { font-weight: 100; letter-spacing: 0.05em; color: rgba( 255, 255, 255, 0.8 ); }
+.splash-subhead span { white-space: nowrap; }
+
+
+/*****************
+	CONTENT STYLES
+*****************/
+.content-wrapper { position: absolute; top: 31em; width: 100%; min-height: 12%; background: white; z-index: 2; }
+.content-wrapper { -moz-box-shadow: 0px -1px 2px rgba( 0, 0, 0, 0.25 ); -webkit-box-shadow: 0px -1px 2px rgba( 0, 0, 0, 0.25 ); box-shadow: 0px -1px 2px rgba( 0, 0, 0, 0.25 ); }
+.content-head { margin: 2em 0 1em; font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; }
+.content-subhead { color: #1f8dd6; }
+.content-subhead i { margin-right: 7px; }
+.footer a,
+.footer { color: rgba( 255, 255, 255, 0.8 ); text-decoration: none; }
+.footer { 
+	 -moz-box-shadow: inset 0px 1px 2px rgba( 0, 0, 0, 0.25 );
+-webkit-box-shadow: inset 0px 1px 2px rgba( 0, 0, 0, 0.25 ); 
+				box-shadow: inset 0px 1px 2px rgba( 0, 0, 0, 0.25 ); }
+
+/*****************
+	RIBBON STYLES
+*****************/
+.content-head-ribbon { color: rgb( 255, 255, 255 ); }
+.ribbon { padding-top: 1px; color: rgba( 255, 255, 255, 0.8 ); background: rgb( 28, 117, 188 ); }
+.ribbon h1, .ribbon h2, .ribbon h3,
+.ribbon h4, .ribbon h5, .ribbon h6, 
+.ribbon label { color: rgba( 255, 255, 255, 0.8 ); }
+.ribbon a { font-weight: 500; color: rgb( 253, 222, 54 ); }
+.ribbon li a { text-decoration: none; }
+.ribbon .pure-button { background-color: rgb( 255, 255, 255 ); color: rgb( 28, 117, 188 ); }
+.ribbon { -moz-box-shadow: inset 0px -1px 2px rgba( 0, 0, 0, 0.25 ), inset 0px 1px 2px rgba( 0, 0, 0, 0.25 ); -webkit-box-shadow: inset 0px -1px 2px rgba( 0, 0, 0, 0.25 ), inset 0px 1px 2px rgba( 0, 0, 0, 0.25 ); box-shadow: inset 0px -1px 2px rgba( 0, 0, 0, 0.25 ), inset 0px 1px 2px rgba( 0, 0, 0, 0.25 ); }
+
+
+/****************
+	LAYOUT STYLES
+****************/
+.l-box { padding: 1em; }
+.l-box-lrg { padding: 1em; border: none; }
+.is-center { text-align: center; }
+ul.team { margin: 0; padding: 0; list-style-type: none; }
+ul.team li { display: inline-block; margin: 0; padding: 0; width: 23%; text-align: center; }
+.avatar { width: 6em; border-radius: 50%; border: 3px solid rgb( 14, 58, 94 ); }
+
+/**************
+	FORM STYLES
+**************/
+#mc-embedded-subscribe-form { margin-bottom: 2em; }
+.pure-form label { margin: 1em 0 0; font-size: 100%; font-weight: 500; }
+.pure-form input[type=email] { width: 100%; }
+.pure-form legend { padding-top: 2em; color: inherit; font-weight: 500; border-color: rgba( 255, 255, 255, 0.25 ); }
+.mce-submit-button { width: 100%; }
+.faded, 
+label span { color: rgba( 255, 255, 255, 0.65 ); font-weight: 100; }
+
+/****************
+	BUTTON STYLES
+****************/
+.pure-button { padding: 0.5em 2em; color: white; background-color: rgb( 28, 117, 188 ); border-radius: 1em; }
+.cta-div { margin: 2em 0; }
+.cta-button { padding: 0.5em 1em; font-size: 120%; background-color: rgb( 69, 174, 26 ); border-radius: 1em; }
+
+/****************
+	MEDIA QUERIES
+****************/
+@media ( max-width: 20em ) { 	/* Smaller than 320px */
+	.splash-container { height: 26.1em; }
+	.splash-head { font-size: 200%; }
+	.content-wrapper { top: 26em; }
+	.home-menu .pure-menu-heading { padding: 4px 5px; }
+	.home-menu li a { padding: 5px 2px; }
+	.ribbon .pure-form { width: 100%; }
+}
+@media ( min-width: 20.1em ) and ( max-width: 36em ) { 	/* Smaller than 480px */
+	.splash-container { height: 32.1em; }
+	.splash-head { font-size: 200%; }
+	.content-wrapper { top: 32em; }
+	.home-menu .pure-menu-heading { padding: 4px 5px; }
+	.home-menu li a { padding: 5px 4px; }
+	.ribbon .pure-form { width: 100%; }
+}
+@media ( min-width: 36.1em ) { 	/* Greater than 768px */
+	body { font-size: 16px; }
+	.content { padding: 1em; }
+	.splash-head { font-size: 250%; }
+	.l-box-lrg { margin: auto; width: 65%; border: none; }
+	.l-box.pure-u-1.pure-u-md-1-2.pure-u-lg-1-4 { margin: auto; width: 65%; }
+}
+@media ( min-width: 78em ) { 	/* Greater than 1248px */
+	.splash-head { font-size: 300%; }
+	.home-menu li a { padding: 0 !important; }
+}

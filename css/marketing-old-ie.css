@@ -1,0 +1,10 @@
+/************
+	IE STYLES
+************/
+body { font-size: 16px; }
+.content { padding: 1em; }
+.home-menu { text-align: left; }
+.home-menu ul { float: right; }
+.splash { width: 50%; height: 50%; }
+.splash-head { font-size: 250%; }
+.l-box-lrg { border: none; }
