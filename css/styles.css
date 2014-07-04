@@ -69,7 +69,7 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family
 	LAYOUT STYLES
 ****************/
 .l-box { padding: 1em; }
-.l-box-lrg { padding: 1em; border: none; }
+.l-box-lrg { padding: 1em; border: none; display: block; }
 .is-center { text-align: center; }
 ul.team { margin: 0; padding: 0; list-style-type: none; }
 ul.team li { display: inline-block; margin: 0; padding: 0; width: 23%; text-align: center; }
@@ -117,7 +117,7 @@ label span { color: rgba( 255, 255, 255, 0.65 ); font-weight: 100; }
 	.content { padding: 1em; }
 	.splash-head { font-size: 250%; }
 	.l-box-lrg { margin: auto; width: 65%; border: none; }
-	.l-box.pure-u-1.pure-u-md-1-2.pure-u-lg-1-4 { margin: auto; width: 65%; }
+	.l-box.pure-u-1.pure-u-md-1-2.pure-u-lg-1-4 { margin: auto; width: 65%; display: block; }
 }
 @media ( min-width: 78em ) { 	/* Greater than 1248px */
 	.splash-head { font-size: 300%; }
